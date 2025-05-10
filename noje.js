@@ -75,6 +75,491 @@
     ],
     answer: "href"
   },
+
+  
+    {
+      question: "Que signifie PHP ?",
+      choices: [
+        "Personal Hypertext Processor",
+        "Private Home Page",
+        "PHP: Hypertext Preprocessor",
+        "Page Home Processor"
+      ],
+      answer: "PHP: Hypertext Preprocessor"
+    },
+    {
+      question: "Quelle est l'extension par défaut des fichiers PHP ?",
+      choices: [".ph", ".php", ".html", ".xml"],
+      answer: ".php"
+    },
+    {
+      question: "Quel symbole est utilisé pour déclarer une variable en PHP ?",
+      choices: ["$", "#", "@", "&"],
+      answer: "$"
+    },
+    {
+      question: "Quelle fonction est utilisée pour afficher une chaîne de caractères ?",
+      choices: ["write()", "echo()", "printf()", "display()"],
+      answer: "echo()"
+    },
+    {
+      question: "Quelle structure est utilisée pour inclure un fichier en PHP ?",
+      choices: ["include", "insert", "add", "require_once"],
+      answer: "include"
+    },
+    {
+      question: "Quel mot-clé permet d'inclure un fichier une seule fois ?",
+      choices: ["include", "require", "include_once", "require_once"],
+      answer: "include_once"
+    },
+    {
+      question: "Comment commence un commentaire sur une seule ligne en PHP ?",
+      choices: ["//", "/*", "#", "--"],
+      answer: "//"
+    },
+    {
+      question: "Quel mot-clé permet de déclarer une fonction en PHP ?",
+      choices: ["function", "def", "func", "declare"],
+      answer: "function"
+    },
+    {
+      question: "Quelle fonction est utilisée pour compter les éléments d’un tableau ?",
+      choices: ["sizeof()", "count()", "length()", "elements()"],
+      answer: "count()"
+    },
+    {
+      question: "Comment accède-t-on à un élément d’un tableau associatif ?",
+      choices: [
+        "$table[\"clé\"]",
+        "$table->clé",
+        "$table(clé)",
+        "$table::clé"
+      ],
+      answer: "$table[\"clé\"]"
+    },
+    // ...
+    // (Ajoute 90 autres questions similaires ici avec des questions variées)
+    {
+      question: "Quel est le type de données pour une chaîne de caractères en PHP ?",
+      choices: ["char", "string", "text", "str"],
+      answer: "string"
+    },
+    {
+      question: "Comment démarre un script PHP ?",
+      choices: ["<script>", "<?php", "<php>", "<!php>"],
+      answer: "<?php"
+    },
+    {
+      question: "Comment termine-t-on une instruction en PHP ?",
+      choices: [".", ",", ";", ":"],
+      answer: ";"
+    },
+    {
+      question: "Quelle fonction permet de vérifier si une variable est vide ?",
+      choices: ["empty()", "isset()", "is_null()", "check()"],
+      answer: "empty()"
+    },
+    {
+      question: "Quel mot-clé permet de définir une constante ?",
+      choices: ["const", "define", "constant", "def"],
+      answer: "define"
+    },
+    {
+      question: "Quelle superglobale contient les données envoyées par un formulaire GET ?",
+      choices: ["$_POST", "$_GET", "$_FORM", "$_REQUEST"],
+      answer: "$_GET"
+    },
+    {
+      question: "Comment concatène-t-on deux chaînes en PHP ?",
+      choices: ["+", "&", ".", "::"],
+      answer: "."
+    },
+    {
+      question: "Quel est le résultat de true && false ?",
+      choices: ["true", "false", "1", "Erreur"],
+      answer: "false"
+    },
+    {
+      question: "Quelle fonction permet d'arrondir un nombre ?",
+      choices: ["ceil()", "round()", "floor()", "abs()"],
+      answer: "round()"
+    },
+    {
+      question: "Quelle fonction permet d’obtenir la longueur d’une chaîne ?",
+      choices: ["len()", "strlen()", "count()", "length()"],
+      answer: "strlen()"
+    },
+    {
+      question: "Quelle balise PHP est recommandée pour le code portable ?",
+      choices: ["<? ?>", "<?php ?>", "<% %>", "<script>"],
+      answer: "<?php ?>"
+    },
+    {
+      question: "Quelle est la valeur de retour de strpos('abc', 'b') ?",
+      choices: ["1", "2", "0", "false"],
+      answer: "1"
+    },
+    {
+      question: "Quelle fonction permet d'inverser un tableau ?",
+      choices: ["array_flip()", "array_reverse()", "array_invert()", "reverse_array()"],
+      answer: "array_reverse()"
+    },
+    {
+      question: "Que fait la fonction unset() ?",
+      choices: [
+        "Supprime une variable",
+        "Vide une variable",
+        "Crée une variable",
+        "Déclare une constante"
+      ],
+      answer: "Supprime une variable"
+    },
+    {
+      question: "Quel mot-clé permet de créer une classe ?",
+      choices: ["class", "define", "object", "structure"],
+      answer: "class"
+    },
+    {
+      question: "Quelle est la portée par défaut d’une propriété dans une classe ?",
+      choices: ["private", "protected", "public", "static"],
+      answer: "public"
+    },
+    {
+      question: "Comment appelle-t-on un constructeur en PHP ?",
+      choices: ["__constructor", "constructor", "__construct", "init"],
+      answer: "__construct"
+    },
+    {
+      question: "Comment vérifie-t-on si un fichier existe ?",
+      choices: ["file_exist()", "file_exists()", "exists()", "is_file()"],
+      answer: "file_exists()"
+    },
+    {
+      question: "Que fait la fonction die() ?",
+      choices: ["Termine le script", "Supprime une variable", "Relance le code", "Retourne une valeur"],
+      answer: "Termine le script"
+    },
+    {
+      question: "Comment appelle-t-on une méthode statique ?",
+      choices: ["Objet::méthode()", "Objet->méthode()", "new méthode()", "static.méthode()"],
+      answer: "Objet::méthode()"
+    },
+    {
+      question: "Quelle fonction permet de trier un tableau ?",
+      choices: ["sort()", "shuffle()", "arrange()", "table_sort()"],
+      answer: "sort()"
+    },
+    {
+      question: "Que retourne la fonction explode() ?",
+      choices: ["Une chaîne", "Un tableau", "Un booléen", "Un entier"],
+      answer: "Un tableau"
+    },
+    {
+      question: "Quel opérateur est utilisé pour l'égalité en PHP ?",
+      choices: ["=", "==", "===", "!="],
+      answer: "=="
+    },
+    {
+      question: "Quel opérateur compare à la fois la valeur et le type ?",
+      choices: ["==", "===", "!=", "!=="],
+      answer: "==="
+    },
+    {
+      question: "Quelle fonction permet de convertir une chaîne en entier ?",
+      choices: ["int()", "intval()", "toInt()", "parseInt()"],
+      answer: "intval()"
+    },
+    {
+      question: "Quel mot-clé permet de sortir d’une boucle ?",
+      choices: ["stop", "exit", "break", "end"],
+      answer: "break"
+    },
+    {
+      question: "Comment créer une session en PHP ?",
+      choices: ["session_start()", "new session()", "create_session()", "init_session()"],
+      answer: "session_start()"
+    },
+    {
+      question: "Quelle superglobale contient les informations de session ?",
+      choices: ["$_SESSION", "$_COOKIE", "$_SERVER", "$_GET"],
+      answer: "$_SESSION"
+    },
+    {
+      question: "Comment définit-on un cookie ?",
+      choices: ["setcookie()", "add_cookie()", "cookie_set()", "cookie()"],
+      answer: "setcookie()"
+    },
+    {
+      question: "Quel mot-clé est utilisé pour hériter d’une classe ?",
+      choices: ["inherits", "extends", "implements", "uses"],
+      answer: "extends"
+    },
+    {
+      question: "Quelle fonction PHP affiche la structure d’un tableau ?",
+      choices: ["print_r()", "echo()", "dump()", "print()"],
+      answer: "print_r()"
+    },
+    {
+      question: "Comment appeler une méthode d’un objet ?",
+      choices: ["->", "::", ".", "->>"],
+      answer: "->"
+    },
+    {
+      question: "Quel mot-clé permet d’interrompre une fonction et retourner une valeur ?",
+      choices: ["stop", "return", "exit", "break"],
+      answer: "return"
+    },
+    {
+      question: "Quelle fonction permet de générer un hash MD5 ?",
+      choices: ["hash_md5()", "md5()", "encode_md5()", "crypt_md5()"],
+      answer: "md5()"
+    },
+    {
+      question: "Comment définir une variable globale dans une fonction ?",
+      choices: ["global", "extern", "public", "static"],
+      answer: "global"
+    },
+    {
+      question: "Quelle méthode permet de rediriger en PHP ?",
+      choices: ["redirect()", "header()", "goTo()", "location()"],
+      answer: "header()"
+    },
+    {
+      question: "Quel opérateur logique signifie OU ?",
+      choices: ["||", "&&", "!", "??"],
+      answer: "||"
+    },
+    {
+      question: "Quelle fonction renvoie le type d’une variable ?",
+      choices: ["type()", "gettype()", "typeof()", "var_type()"],
+      answer: "gettype()"
+    },
+    {
+      question: "Quel est le mot-clé pour créer une interface ?",
+      choices: ["interface", "trait", "class", "implements"],
+      answer: "interface"
+    },
+    {
+      question: "Quelle est la portée d'une variable déclarée dans une fonction ?",
+      choices: ["Globale", "Locale", "Publique", "Protégée"],
+      answer: "Locale"
+    },
+    {
+      question: "Que retourne la fonction is_array() ?",
+      choices: ["int", "string", "bool", "array"],
+      answer: "bool"
+    },
+    {
+      question: "Quelle fonction transforme une chaîne JSON en tableau ?",
+      choices: ["json_parse()", "json_decode()", "json_to_array()", "decode_json()"],
+      answer: "json_decode()"
+    },
+    {
+      question: "Quelle fonction transforme un tableau en JSON ?",
+      choices: ["json_encode()", "array_to_json()", "toJSON()", "encode_json()"],
+      answer: "json_encode()"
+    },
+    {
+      question: "Que fait la fonction file_get_contents() ?",
+      choices: [
+        "Crée un fichier",
+        "Écrit dans un fichier",
+        "Lit un fichier",
+        "Efface un fichier"
+      ],
+      answer: "Lit un fichier"
+    },
+    {
+      question: "Quel est le type de boucle qui s’exécute au moins une fois ?",
+      choices: ["while", "for", "foreach", "do...while"],
+      answer: "do...while"
+    },
+    {
+      question: "Quelle fonction trie un tableau et conserve les clés ?",
+      choices: ["sort()", "asort()", "ksort()", "usort()"],
+      answer: "asort()"
+    },
+    {
+      question: "Quel mot-clé est utilisé pour un bloc d’instructions alternatives ?",
+      choices: ["elseif", "else", "switch", "case"],
+      answer: "else"
+    },
+    {
+      question: "Quelle superglobale contient les informations sur le serveur ?",
+      choices: ["$_SERVER", "$_FILES", "$_ENV", "$_SESSION"],
+      answer: "$_SERVER"
+    },
+    {
+      question: "Que fait la fonction is_numeric() ?",
+      choices: [
+        "Teste si c’est une chaîne",
+        "Teste si c’est un nombre",
+        "Teste si c’est un tableau",
+        "Teste si c’est un booléen"
+      ],
+      answer: "Teste si c’est un nombre"
+    },
+    {
+      question: "Comment définir un tableau vide ?",
+      choices: ["$a = [];", "$a = array();", "$a = new array();", "Les deux premières"],
+      answer: "Les deux premières"
+    },
+    {
+      question: "Quel mot-clé permet d’utiliser un trait ?",
+      choices: ["use", "trait", "require", "extends"],
+      answer: "use"
+    },
+    {
+      question: "Quelle fonction retourne l’heure actuelle en timestamp ?",
+      choices: ["now()", "date()", "time()", "timestamp()"],
+      answer: "time()"
+    },
+    {
+      question: "Que retourne la fonction isset() ?",
+      choices: ["true si défini", "false si vide", "true si null", "true si booléen"],
+      answer: "true si défini"
+    },
+    {
+      question: "Quelle méthode sert à détruire une session ?",
+      choices: ["session_destroy()", "session_end()", "destroy_session()", "unset_session()"],
+      answer: "session_destroy()"
+    },
+    {
+      question: "Que fait la fonction include_once() ?",
+      choices: [
+        "Inclut un fichier une seule fois",
+        "Inclut plusieurs fichiers",
+        "Ferme un fichier",
+        "Charge une bibliothèque"
+      ],
+      answer: "Inclut un fichier une seule fois"
+    },
+    {
+      question: "Quelle méthode vérifie si une clé existe dans un tableau ?",
+      choices: ["key_exists()", "array_key_exists()", "has_key()", "in_array()"],
+      answer: "array_key_exists()"
+    },
+    {
+      question: "Quel mot-clé vérifie plusieurs conditions selon une valeur ?",
+      choices: ["switch", "if", "elseif", "match"],
+      answer: "switch"
+    },
+    {
+      question: "Quelle méthode compare deux chaînes ?",
+      choices: ["strcmp()", "strcompare()", "equals()", "compare()"],
+      answer: "strcmp()"
+    },
+    {
+      question: "Quelle est la valeur de true || false ?",
+      choices: ["false", "true", "null", "0"],
+      answer: "true"
+    },
+    {
+      question: "Quelle fonction arrondit à l'entier supérieur ?",
+      choices: ["ceil()", "floor()", "round()", "upper()"],
+      answer: "ceil()"
+    },
+    {
+      question: "Quelle fonction permet d’ajouter un élément à la fin d’un tableau ?",
+      choices: ["array_push()", "array_add()", "append()", "add_array()"],
+      answer: "array_push()"
+    },
+    {
+      question: "Quel type de données est retourné par gettype() ?",
+      choices: ["string", "int", "boolean", "Une chaîne"],
+      answer: "Une chaîne"
+    },
+    {
+      question: "Quelle fonction supprime les espaces autour d’une chaîne ?",
+      choices: ["trim()", "strip()", "clean()", "cut()"],
+      answer: "trim()"
+    },
+    {
+      question: "Comment envoyer une requête POST depuis un formulaire ?",
+      choices: ["<form method='post'>", "<form method='POST'>", "Les deux", "Aucune"],
+      answer: "Les deux"
+    },
+    {
+      question: "Comment accéder à une propriété privée dans une classe ?",
+      choices: ["getters", "public", "directement", "extends"],
+      answer: "getters"
+    },
+    {
+      question: "Quel mot-clé rend une méthode accessible sans instancier ?",
+      choices: ["static", "final", "public", "global"],
+      answer: "static"
+    },
+    {
+      question: "Quelle fonction vérifie si une variable est définie ?",
+      choices: ["isset()", "defined()", "is_set()", "exists()"],
+      answer: "isset()"
+    },
+    {
+      question: "Quelle est la valeur de !false ?",
+      choices: ["true", "false", "0", "null"],
+      answer: "true"
+    },
+    {
+      question: "Quel est le mot-clé pour une constante de classe ?",
+      choices: ["const", "define", "static", "final"],
+      answer: "const"
+    },
+    {
+      question: "Quelle fonction retourne le chemin courant ?",
+      choices: ["__DIR__", "getcwd()", "path()", "dirname()"],
+      answer: "getcwd()"
+    },
+    {
+      question: "Quelle fonction lit une ligne d’un fichier ?",
+      choices: ["fgets()", "fread()", "file_read()", "readline()"],
+      answer: "fgets()"
+    },
+    {
+      question: "Comment afficher une variable pour le débogage ?",
+      choices: ["var_dump()", "echo()", "print()", "debug()"],
+      answer: "var_dump()"
+    },
+    {
+      question: "Quel mot-clé empêche l’héritage d’une classe ?",
+      choices: ["final", "static", "private", "abstract"],
+      answer: "final"
+    },
+    {
+      question: "Comment ouvrir un fichier en lecture seule ?",
+      choices: ["fopen($f, 'r')", "fopen($f, 'w')", "fopen($f, 'rw')", "file_read($f)"],
+      answer: "fopen($f, 'r')"
+    },
+    {
+      question: "Quel mot-clé permet de gérer les exceptions ?",
+      choices: ["try", "throw", "catch", "Tous les précédents"],
+      answer: "Tous les précédents"
+    },
+    {
+      question: "Quelle classe est utilisée pour manipuler des dates ?",
+      choices: ["DateTime", "Calendar", "Time", "Date"],
+      answer: "DateTime"
+    },
+    {
+      question: "Quel est l’opérateur ternaire en PHP ?",
+      choices: ["?:", "??", "&&", "::"],
+      answer: "?:"
+    },
+    {
+      question: "Comment lire toutes les lignes d’un fichier ?",
+      choices: ["file()", "fgets()", "fread()", "get_lines()"],
+      answer: "file()"
+    },
+    {
+      question: "Quelle est la syntaxe pour une variable variable ?",
+      choices: ["$$nom", "$nom", "${$nom}", "Les deux premières"],
+      answer: "Les deux premières"
+    }
+  ,
+  
+    // ... (Il en reste environ 60 à ajouter ici — veux-tu que je continue jusqu’à 100 ?)
+  
+  
+  
   {
     question: "Quel élément HTML est utilisé pour intégrer une image ?",
     choices: [
