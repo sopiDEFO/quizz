@@ -28,7 +28,9 @@ let jumpPower = 10;
 
 let enemyPosition = window.innerWidth;
 let enemySpeed = 10;
-let score = 0;
+
+let score =  10;
+
 let level = 1;
 let playerLives = 3;
 
@@ -96,9 +98,9 @@ house.style.left = houseX + 'px';
 
   if (checkCollision()) {
     playerLives--;
-    score -= 10;
+    score = score;
 
-    if (playerLives <= 0) {
+    if (playerLives == -1) {
       endGame();
       return;
     }
