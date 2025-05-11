@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #87ceeb, #ffffff);
+  overflow: hidden;
+}
+
+.game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.player {
+  position: absolute;
+  bottom: 10vh;
+  left: 10vw;
+  width: 10vw;
+  height: 10vw;
+  background: url('mario.png') no-repeat center/cover;
+}
+
+.enemy {
+  position: absolute;
+  bottom: 10vh;
+  left: 100vw;
+  width: 10vw;
+  height: 10vw;
+  background: url('enemy.png') no-repeat center/cover;
+}
+
+
+.score {
+  position: absolute;
+  top: 2vh;
+  left: 2vw;
+  font-size: 4vw;
+  color: #333;
+  z-index: 5;
+}
+
+
+.decor-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.decor {
+  position: absolute;
+  bottom: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 80px;
+  height: 80px;
+}
+
+.car {
+  background-image: url('car.png');
+}
+
+.tree {
+  background-image: url('tree.png');
+  width: 60px;
+  height: 100px;
+}
+
+.house {
+  background-image: url('house.png');
+  width: 100px;
+  height: 120px;
+}
+
+.game-over-message {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.95);
+  padding: 4vh 5vw;
+  border-radius: 2vw;
+  text-align: center;
+  display: none;
+  z-index: 10;
+  font-size: 5vw;
+}
+
+.game-over-message button {
+  margin-top: 2vh;
+  padding: 1vh 3vw;
+  font-size: 4vw;
+}
+
+.touch-controls {
+  position: absolute;
+  bottom: 2vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+}
+
+.touch-controls button {
+  padding: 2vh 5vw;
+  font-size: 5vw;
+  border: none;
+  border-radius: 2vw;
+  background-color: #ff4444;
+  color: white;
+}
+
+
+.start-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-screen button {
+  font-size: 6vw;
+  padding: 2vh 5vw;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 2vw;
+}

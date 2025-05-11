@@ -6,6 +6,8 @@ body {
   background: linear-gradient(135deg, #2d2d2d, #1a1a1a);
   color: #fff;
   display: flex;
+
+
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -138,3 +140,6 @@ button:disabled {
   font-weight: bold;
   cursor: pointer;
 }
+
+
+

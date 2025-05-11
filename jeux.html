@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeu Mario Dynamique</title>
+  <link rel="stylesheet" href="styl.css" />
+</head>
+<body>
+  <div class="start-screen" id="start-screen">
+  <button onclick="startGame()">Démarrer le jeu</button>
+</div>
+
+  <div class="game-container">
+    <div class="score" id="score">Score: 0 | Vies: 3</div>
+    <div class="player"></div>
+    <div class="enemy"></div>
+    <div class="decor-container">
+  <div class="car decor car1"></div>
+  <div class="tree decor tree1"></div>
+  <div class="house decor house1"></div>
+</div>
+
+
+    <div class="game-over-message" id="game-over-message">
+      <p id="final-score">Score final: 0</p>
+      <button onclick="resetGame()">Recommencer</button>
+    </div>
+
+    
+    <div class="touch-controls">
+      <button onclick="jump()">SAUTER</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
+
