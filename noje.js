@@ -1,3 +1,4 @@
+
   const questions = [
   {
     question: "Quel langage est utilisé pour créer la structure d'une page web ?",
@@ -1165,25 +1166,4 @@
         document.getElementById("answers").innerHTML = "";
       }
     }, 1000);
-    
   }
-  let chartData = {
-    labels: ["Bonnes réponses", "Mauvaises réponses"],
-    datasets: [{
-        label: 'Résultat en temps réel',
-        data: [0, 0],
-        backgroundColor: ['#4caf50', '#f44336']
-    }]
-};
-
-let ctx = document.getElementById('scoreChart').getContext('2d');
-let scoreChart = new Chart(ctx, {
-    type: 'bar',
-    data: chartData,
-    options: {
-        responsive: true,
-        scales: {
-            y: { beginAtZero: true }
-        }
-    }
-});
