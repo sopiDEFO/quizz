@@ -1,3 +1,4 @@
+
 const player = document.querySelector('.player');
 const enemy = document.querySelector('.enemy');
 const scoreElement = document.getElementById('score');
@@ -26,7 +27,7 @@ let gravity = 0.8;
 let jumpPower = 10;
 
 let enemyPosition = window.innerWidth;
-let enemySpeed = 5;
+let enemySpeed = 10;
 let score = 0;
 let level = 1;
 let playerLives = 3;
@@ -165,13 +166,3 @@ function resetGame() {
   gameStarted = true;
   animationId = requestAnimationFrame(gameLoop);
 }
-
-
-
-
-
-
-
-
-
-
