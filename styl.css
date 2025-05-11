@@ -17,6 +17,15 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+.ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #654321; /* Marron, comme de la terre */
+  z-index: 1;
+}
+
 
 .player {
   position: absolute;
