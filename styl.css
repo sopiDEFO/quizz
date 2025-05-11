@@ -9,6 +9,15 @@ body {
   background: linear-gradient(to bottom, #87ceeb, #ffffff);
   overflow: hidden;
 }
+.ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: #654321; /* Marron, comme de la terre */
+  z-index: 1;
+}
+
 
 .game-container {
   position: relative;
@@ -19,16 +28,17 @@ body {
 
 .player {
   position: absolute;
-  bottom: 10vh;
-  left: 10vw;
+  
+  transform: translate(5%, -655%);  /* Ajuste la position pour être parfaitement centré */
   width: 10vw;
   height: 10vw;
   background: url('mario.png') no-repeat center/cover;
 }
 
+
 .enemy {
   position: absolute;
-  bottom: 10vh;
+  bottom: 40vh;
   left: 100vw;
   width: 10vw;
   height: 10vw;
